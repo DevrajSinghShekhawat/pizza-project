@@ -12,7 +12,14 @@
 	form {
 		max-width: 460px;
 		margin: 20px auto;
-		padding: 20px
+		padding: 20px;
+	}
+	.pizza {
+		width: 100px;
+		display: block;
+		position: relative;
+		margin: 40px auto -30px;
+		top: -30px;
 	}
 	</style>
 </head>
@@ -20,9 +27,9 @@
 <body class = "grey lighten-4">
 	<nav class ="white z-depth-0>
 		<div class ="container">
-			<a href ="#" class ="brand-logo brand-text"> Dev Pizza </a>
+			<a href ="index.php" class ="brand-logo brand-text"> Dev Pizza </a>
 			<ul id ="nav-mobile" class ="right hide-on-small-and-down">
-				<li><a href ="#" class ="btn brand z-depth-0">add a pizza</a></li>
+				<li><a href ="add.php" class ="btn brand z-depth-0">add a pizza</a></li>
 			</ul>
 		</div>
 	</nav>
